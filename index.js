@@ -17,7 +17,9 @@ myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
 
-
+/*
+  A closure is occurring when the nestedFunction() needs to reference the variable internal. It doesn't know the value within itself, so it reaches into its outer scope and asks myfunction() "Do you know what the heck internal is?" And it replies, "I got you, fam! Its value is set to a string of 'Hello! I'm inside myFunction!'"
+*/
 
 
 

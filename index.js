@@ -96,9 +96,14 @@ The zoo is concerned about animals with a lower population count.
 Using lowPopulationAnimals use .filter() to create a new array of objects which contains only the animals with a population of less than 5.
 */
 
-function lowPopulationAnimals(/*Your Code Here*/){
-  /*Your Code Here*/
+function lowPopulationAnimals(array){
+  let lowPop = array.filter(function(item) {
+    return item.population < 5;
+  });
+  return lowPop;
 }
+
+console.log(`Topic 2.3:`, lowPopulationAnimals(zooAnimals));
 
 
 /* 🦁🦁🦁 Request 4: .reduce() 🦁🦁🦁

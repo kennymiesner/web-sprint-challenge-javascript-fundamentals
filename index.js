@@ -130,28 +130,36 @@ console.log(`Topic 2.4:`, USApop(zooAnimals));
   * The consume function should return the invocation of cb, passing a and b into cb as arguments
 */
 
-function consume(a, b, cb){
-  return cb(a, b);
-}
+// function consume(a, b, cb){
+//   return cb(a, b);
+// }
+
+const consume = (a, b, cb) => cb(a, b);
 
 /* 🦁🦁🦁 Step 2: Create several functions to callback with consume(); 🦁🦁🦁 */
 // 🦁🦁🦁 Use add to return the sum of two numbers 🦁🦁🦁
 
-function add(a, b){
-  return a + b;
-}
+// function add(a, b){
+//   return a + b;
+// }
+
+const add = (a, b) => a + b;
 
 // 🦁🦁🦁 Use multiply to return the product of two numbers 🦁🦁🦁
 
-function multiply(a, b){
-  return a * b;
-}
+// function multiply(a, b){
+//   return a * b;
+// }
+
+const multiply = (a, b) => a * b;
 
 // 🦁🦁🦁 Use greeting to accept a first and last name and return "Hello {first-name} {last-name}, nice to meet you!" 🦁🦁🦁
 
-function greeting(firstName, lastName){
-  return `Hello ${firstName} ${lastName}, nice to meet you!`;
-}
+// function greeting(firstName, lastName){
+//   return `Hello ${firstName} ${lastName}, nice to meet you!`;
+// }
+
+const greeting = (firstName, lastName) => `Hello ${firstName} ${lastName}, nice to meet you!`;
 
 // 🦁🦁🦁 Step 3: Check your work by un-commenting the following calls to consume(): 🦁🦁🦁 
 // ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️

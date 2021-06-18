@@ -81,9 +81,14 @@ Using lowerCaseNames use .map() to create a new array of strings with the animal
 For example: ['jackal, asiatic', .....]
 */
 
-function lowerCaseNames(/*Your Code Here*/){
-  /*Your Code Here*/
+function lowerCaseNames(array){
+  let lowercase = array.map(function(item) {
+    return item.animal_name.toLowerCase();
+  });
+  return lowercase;
 }
+
+console.log(`Topic 2.2:`, lowerCaseNames(zooAnimals));
 
 
 /* 🦁🦁🦁 Request 3: .filter() 🦁🦁🦁

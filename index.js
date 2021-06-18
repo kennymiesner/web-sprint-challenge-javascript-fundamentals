@@ -65,7 +65,7 @@ displayNames will be an array of strings, and each string should follow this pat
 */
 
 function animalNames(array){
-  let displayNames = [];
+  const displayNames = [];
   array.forEach(function(item) {
     displayNames.push(`name: ${item.animal_name}, scientific: ${item.scientific_name}`);
   });
@@ -82,7 +82,7 @@ For example: ['jackal, asiatic', .....]
 */
 
 function lowerCaseNames(array){
-  let lowercase = array.map(function(item) {
+  const lowercase = array.map(function(item) {
     return item.animal_name.toLowerCase();
   });
   return lowercase;
@@ -97,7 +97,7 @@ Using lowPopulationAnimals use .filter() to create a new array of objects which 
 */
 
 function lowPopulationAnimals(array){
-  let lowPop = array.filter(function(item) {
+  const lowPop = array.filter(function(item) {
     return item.population < 5;
   });
   return lowPop;

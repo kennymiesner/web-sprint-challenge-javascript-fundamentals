@@ -37,7 +37,7 @@ Higher order functions receive other functions as arguments. Callback functions 
 
 3. Can you explain what a closure is and how you used it in the counter function? 
 
-A closure occurs when a function reaches into its outer scope to reference a variable that's been defined elsewhere. It allows us to access functions from a parent level scope, even after the parent function has been terminated. NEED TO ANSWER PART TWO OF THIS QUESTION AFTER COMPLETING THE CHALLENGE!
+A closure occurs when a function reaches into its outer scope to reference a variable that's been defined elsewhere. It allows us to access functions from a parent level scope, even after the parent function has been terminated.
 
 4. Describe the four principles of the 'this' keyword.
 
